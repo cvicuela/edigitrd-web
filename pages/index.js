@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-900 text-white font-sans">
@@ -11,7 +13,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="px-6 py-20 text-center bg-slate-900">
+      <main className="px-6 py-20 text-center bg-[url('/hero-bg.jpg')] bg-cover bg-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
             Soluciones Migratorias para España
@@ -19,7 +21,10 @@ export default function Home() {
           <p className="text-lg text-slate-300 mb-8">
             Somos un despacho de abogados especializado en ofrecer soluciones legales para residir, trabajar y obtener la nacionalidad española.
           </p>
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+          <button
+            onClick={() => window.open("https://forms.monday.com/forms/00ca3fe39a4911dcd295ccf9086dc680?r=use1", "_blank")}
+            className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition"
+          >
             Solicitar una consulta
           </button>
         </div>
