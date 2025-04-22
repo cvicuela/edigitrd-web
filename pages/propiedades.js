@@ -46,9 +46,9 @@ export default function Propiedades() {
           </div>
         </div>
 
-        {/* Apartamento 3 */}
+        {/* Apartamento */}
         <div className="bg-white rounded shadow-md overflow-hidden">
-          <Image src={local3} alt="Apartamento Residencial – Chamartín, Madrid" className="w-full h-auto" />
+          <Image src={local3} alt="Apartamento en Chamartín, Madrid" className="w-full h-auto" />
           <div className="p-4">
             <h2 className="text-xl font-semibold mb-2">Apartamento en Chamartín, Madrid</h2>
             <p className="text-sm mb-1">🏡 2 habitaciones + 2 baños. Ideal para residencia Golden Visa.</p>
