@@ -9,12 +9,12 @@ export default function Home() {
         <nav className="space-x-6 text-sm">
           <Link href="/" className="hover:text-yellow-400">Inicio</Link>
           <Link href="/residencia-por-inversion" className="hover:text-yellow-400">Residencia por Inversión</Link>
-          <a href="#" className="hover:text-yellow-400">Servicios</a>
+          <Link href="/propiedades" className="hover:text-yellow-400">Propiedades</Link>
           <a href="#" className="hover:text-yellow-400">Contacto</a>
         </nav>
       </header>
 
-      <main className="px-6 py-20 text-center bg-[url('/hero-bg.jpg')] bg-cover bg-center">
+      <main className="px-6 py-20 text-center bg-slate-900">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
             Soluciones Migratorias para España
