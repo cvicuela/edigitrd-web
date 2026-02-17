@@ -10,6 +10,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold tracking-wide">EDIGIT Abogados</h1>
           <ul className="flex gap-6 text-sm font-medium">
             <li><Link href="/"><span className="hover:text-yellow-400 cursor-pointer">Inicio</span></Link></li>
+            <li><Link href="/perfil-financiero"><span className="hover:text-yellow-400 cursor-pointer">Perfil Financiero</span></Link></li>
             <li><Link href="/residencia-por-inversion"><span className="hover:text-yellow-400 cursor-pointer">Residencia</span></Link></li>
             <li><Link href="/propiedades"><span className="hover:text-yellow-400 cursor-pointer">Propiedades</span></Link></li>
             <li><a href="mailto:alonsoveloz@gmail.com" className="hover:text-yellow-400">Contacto</a></li>
@@ -48,6 +49,22 @@ export default function Home() {
             <h3 className="text-yellow-400 font-bold text-xl mb-2">📍 En España y RD</h3>
             <p className="text-gray-300 text-sm">Te acompañamos desde Santo Domingo y Madrid.</p>
           </div>
+        </div>
+      </section>
+
+      {/* SECCIÓN PERFIL FINANCIERO */}
+      <section className="py-16 px-6 bg-gradient-to-r from-purple-900 to-indigo-900">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Conoce Tu Perfil Financiero-Psicológico</h2>
+          <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-8">
+            ¿Cuál es tu relación real con el dinero? Descubre si eres gastador, ahorrador, evitador, acumulador o dador. Identifica tus creencias limitantes heredadas y recibe un plan personalizado para transformar tu vida financiera.
+          </p>
+          <Link href="/perfil-financiero">
+            <button className="bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-500 hover:to-orange-500 text-gray-900 font-bold px-8 py-4 rounded-lg transition text-lg">
+              Realizar Test Gratuito →
+            </button>
+          </Link>
+          <p className="text-gray-300 text-sm mt-4">8 preguntas • Resultados instantáneos • Acceso a cursos de finanzas personales</p>
         </div>
       </section>
 
